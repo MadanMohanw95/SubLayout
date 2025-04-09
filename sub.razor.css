@@ -1,0 +1,40 @@
+.sub-layout {
+    display: flex;
+    height: 100%; 
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.field {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    flex: 1; 
+}
+
+.main-content {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 1rem;
+}
+
+.right-panel {
+    width: 20%;
+    background-color: #71984A;
+    padding: 10px;
+    border: 1px solid #ccc;
+    height: 100%;
+    margin-left: 1rem;
+    color: #fff;
+}
